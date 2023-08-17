@@ -12,6 +12,7 @@
       "test": "mocha --require ts-node/register --extensions ts __tests__/**/*.test.ts",
       "dist": "tsc",
       "build": "tsc",
+      "publish": "rm -r dist && tsc && npm version patch && npm publish",
       "docs": "typedoc --plugin typedoc-plugin-markdown --out docs src/index.ts"
    },
    "publishConfig": {
