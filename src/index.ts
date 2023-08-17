@@ -1,1 +1,1 @@
-export { default } from './structures/NibyBinAPI';
+export { default as default } from './structures/NibyBinAPI';
