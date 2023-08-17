@@ -1,2 +1,4 @@
 # Others
 node_modules
+.npmrc
+dist

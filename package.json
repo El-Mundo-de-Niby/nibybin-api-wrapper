@@ -1,24 +1,38 @@
 {
-  "name": "nibybin-api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/index.ts",
-  "scripts": {
-    "test": "mocha --require ts-node/register --extensions ts __tests__/**/*.test.ts"
-  },
-  "author": "dewstouh",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/chai": "^4.3.5",
-    "@types/mocha": "^10.0.1",
-    "@typescript-eslint/eslint-plugin": "^6.4.0",
-    "@typescript-eslint/parser": "^6.4.0",
-    "chai": "^4.3.7",
-    "eslint": "^8.47.0",
-    "eslint-config-prettier": "^9.0.0",
-    "jest": "^29.6.2",
-    "mocha": "^10.2.0",
-    "prettier": "^3.0.2",
-    "ts-node": "^10.9.1"
-  }
+   "name": "@dewstouh/nibybin-api",
+   "version": "1.0.0",
+   "description": "",
+   "main": "dist/index.ts",
+   "types": "dist/index.d.ts",
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/El-Mundo-de-Niby/nibybin-api.git"
+   },
+   "scripts": {
+      "test": "mocha --require ts-node/register --extensions ts __tests__/**/*.test.ts",
+      "dist": "tsc",
+      "build": "tsc"
+   },
+   "publishConfig": {
+      "registry": "https://npm.pkg.github.com"
+   },
+   "files": [
+      "dist/**/*.js",
+      "dist/**/*.d.ts"
+   ],
+   "author": "dewstouh",
+   "license": "ISC",
+   "devDependencies": {
+      "@types/chai": "^4.3.5",
+      "@types/mocha": "^10.0.1",
+      "@typescript-eslint/eslint-plugin": "^6.4.0",
+      "@typescript-eslint/parser": "^6.4.0",
+      "chai": "^4.3.7",
+      "eslint": "^8.47.0",
+      "eslint-config-prettier": "^9.0.0",
+      "jest": "^29.6.2",
+      "mocha": "^10.2.0",
+      "prettier": "^3.0.2",
+      "ts-node": "^10.9.1"
+   }
 }
