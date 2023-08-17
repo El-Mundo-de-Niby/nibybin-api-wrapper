@@ -38,9 +38,16 @@ Crea una instancia de NibyBinAPI.
 | :------ | :------ | :------ |
 | `token` | `string` | El token de autenticación para la API. |
 
+**`Example`**
+
+```ts
+import NibyBinAPI from 'nibybin';
+const nibybin = new NibyBinAPI({token: "tu-token"});
+```
+
 #### Defined in
 
-[structures/NibyBinAPI.ts:17](https://github.com/El-Mundo-de-Niby/nibybin-api/blob/e653072/src/structures/NibyBinAPI.ts#L17)
+[structures/NibyBinAPI.ts:20](https://github.com/El-Mundo-de-Niby/nibybin-api/blob/f51d42e/src/structures/NibyBinAPI.ts#L20)
 
 ## Properties
 
@@ -50,7 +57,7 @@ Crea una instancia de NibyBinAPI.
 
 #### Defined in
 
-[structures/NibyBinAPI.ts:11](https://github.com/El-Mundo-de-Niby/nibybin-api/blob/e653072/src/structures/NibyBinAPI.ts#L11)
+[structures/NibyBinAPI.ts:11](https://github.com/El-Mundo-de-Niby/nibybin-api/blob/f51d42e/src/structures/NibyBinAPI.ts#L11)
 
 ___
 
@@ -60,7 +67,7 @@ ___
 
 #### Defined in
 
-[structures/NibyBinAPI.ts:10](https://github.com/El-Mundo-de-Niby/nibybin-api/blob/e653072/src/structures/NibyBinAPI.ts#L10)
+[structures/NibyBinAPI.ts:10](https://github.com/El-Mundo-de-Niby/nibybin-api/blob/f51d42e/src/structures/NibyBinAPI.ts#L10)
 
 ## Methods
 
@@ -82,13 +89,31 @@ Sube un nuevo código a NibyBin.
 
 Los datos del código subido.
 
+**`Example`**
+
+```ts
+const codeToUpload = {
+  title: 'Mi Código',
+  description: 'Código de ejemplo',
+  language: 'javascript',
+  code: 'console.log("Hola, Mundo!");',
+};
+nibybin.create(codeToUpload)
+  .then((codeData) => {
+    console.log('Código subido:', codeData);
+  })
+  .catch((error) => {
+    console.error('Error al subir el código:', error);
+  });
+```
+
 #### Implementation of
 
 NibyBinAPIInterface.create
 
 #### Defined in
 
-[structures/NibyBinAPI.ts:27](https://github.com/El-Mundo-de-Niby/nibybin-api/blob/e653072/src/structures/NibyBinAPI.ts#L27)
+[structures/NibyBinAPI.ts:44](https://github.com/El-Mundo-de-Niby/nibybin-api/blob/f51d42e/src/structures/NibyBinAPI.ts#L44)
 
 ___
 
@@ -110,10 +135,23 @@ Obtiene los datos de un código existente en NibyBin.
 
 Los datos del código obtenido.
 
+**`Example`**
+
+```ts
+const codeId = 'codigo-id-a-obtener';
+nibybin.get(codeId)
+  .then((codeData) => {
+    console.log('Datos del código obtenido:', codeData);
+  })
+  .catch((error) => {
+    console.error('Error al obtener el código:', error);
+  });
+```
+
 #### Implementation of
 
 NibyBinAPIInterface.get
 
 #### Defined in
 
-[structures/NibyBinAPI.ts:50](https://github.com/El-Mundo-de-Niby/nibybin-api/blob/e653072/src/structures/NibyBinAPI.ts#L50)
+[structures/NibyBinAPI.ts:76](https://github.com/El-Mundo-de-Niby/nibybin-api/blob/f51d42e/src/structures/NibyBinAPI.ts#L76)
