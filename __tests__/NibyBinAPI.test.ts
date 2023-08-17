@@ -1,4 +1,4 @@
-import NibyBinAPI from '../src/index';
+import {NibyBinAPI} from '../src/index';
 import { expect } from 'chai';
 import { describe } from 'mocha';
 import mocha from 'mocha';
