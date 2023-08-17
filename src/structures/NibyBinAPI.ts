@@ -6,7 +6,7 @@ import { NibyBinAPIInterface } from '../typings/interfaces';
 /**
  * Clase que proporciona métodos para interactuar con la API de NibyBin.
  */
-export default class NibyBinAPI implements NibyBinAPIInterface {
+export class NibyBinAPI implements NibyBinAPIInterface {
    private token: string;
    private apiBaseUrl: string;
 

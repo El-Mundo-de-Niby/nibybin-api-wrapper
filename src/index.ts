@@ -1,1 +1,2 @@
-export { default as default } from './structures/NibyBinAPI';
+import { NibyBinAPI } from './structures/NibyBinAPI';
+export default NibyBinAPI;
