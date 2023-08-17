@@ -1,6 +1,6 @@
-[@dewstouh/nibybin-api](../README.md) / [Exports](../modules.md) / default
+[@dewstouh/nibybin-api](../README.md) / [Exports](../modules.md) / NibyBinAPI
 
-# Class: default
+# Class: NibyBinAPI
 
 Clase que proporciona métodos para interactuar con la API de NibyBin.
 
@@ -12,23 +12,23 @@ Clase que proporciona métodos para interactuar con la API de NibyBin.
 
 ### Constructors
 
-- [constructor](default.md#constructor)
+- [constructor](NibyBinAPI.md#constructor)
 
 ### Properties
 
-- [apiBaseUrl](default.md#apibaseurl)
-- [token](default.md#token)
+- [apiBaseUrl](NibyBinAPI.md#apibaseurl)
+- [token](NibyBinAPI.md#token)
 
 ### Methods
 
-- [create](default.md#create)
-- [get](default.md#get)
+- [create](NibyBinAPI.md#create)
+- [get](NibyBinAPI.md#get)
 
 ## Constructors
 
 ### constructor
 
-• **new default**(`token`)
+• **new NibyBinAPI**(`token`)
 
 Crea una instancia de NibyBinAPI.
 
@@ -47,7 +47,7 @@ const nibybin = new NibyBinAPI({token: "tu-token"});
 
 #### Defined in
 
-[structures/NibyBinAPI.ts:20](https://github.com/El-Mundo-de-Niby/nibybin-api/blob/f51d42e/src/structures/NibyBinAPI.ts#L20)
+[structures/NibyBinAPI.ts:20](https://github.com/El-Mundo-de-Niby/nibybin-api/blob/6b98ad0/src/structures/NibyBinAPI.ts#L20)
 
 ## Properties
 
@@ -57,7 +57,7 @@ const nibybin = new NibyBinAPI({token: "tu-token"});
 
 #### Defined in
 
-[structures/NibyBinAPI.ts:11](https://github.com/El-Mundo-de-Niby/nibybin-api/blob/f51d42e/src/structures/NibyBinAPI.ts#L11)
+[structures/NibyBinAPI.ts:11](https://github.com/El-Mundo-de-Niby/nibybin-api/blob/6b98ad0/src/structures/NibyBinAPI.ts#L11)
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 #### Defined in
 
-[structures/NibyBinAPI.ts:10](https://github.com/El-Mundo-de-Niby/nibybin-api/blob/f51d42e/src/structures/NibyBinAPI.ts#L10)
+[structures/NibyBinAPI.ts:10](https://github.com/El-Mundo-de-Niby/nibybin-api/blob/6b98ad0/src/structures/NibyBinAPI.ts#L10)
 
 ## Methods
 
@@ -113,7 +113,7 @@ NibyBinAPIInterface.create
 
 #### Defined in
 
-[structures/NibyBinAPI.ts:44](https://github.com/El-Mundo-de-Niby/nibybin-api/blob/f51d42e/src/structures/NibyBinAPI.ts#L44)
+[structures/NibyBinAPI.ts:44](https://github.com/El-Mundo-de-Niby/nibybin-api/blob/6b98ad0/src/structures/NibyBinAPI.ts#L44)
 
 ___
 
@@ -154,4 +154,4 @@ NibyBinAPIInterface.get
 
 #### Defined in
 
-[structures/NibyBinAPI.ts:76](https://github.com/El-Mundo-de-Niby/nibybin-api/blob/f51d42e/src/structures/NibyBinAPI.ts#L76)
+[structures/NibyBinAPI.ts:76](https://github.com/El-Mundo-de-Niby/nibybin-api/blob/6b98ad0/src/structures/NibyBinAPI.ts#L76)

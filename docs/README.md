@@ -2,7 +2,9 @@
 
 **🌟 NibyBin API Wrapper 🌟**
 
-¡Bienvenido a la documentación para el Wrapper de la API de NibyBin, tu herramienta para interactuar sin problemas con su API Oficial! Ya sea que estés usando CommonJS o el sistema de módulos ES6, este wrapper te permite crear y recuperar fragmentos de código usando NibyBin de manera sencilla. ¡Vamos a explorar los detalles!
+¡Bienvenido al Wrapper Oficial de la API de NibyBin, tu herramienta para interactuar sin problemas con su API Oficial! Ya sea que estés usando CommonJS o el sistema de módulos ES6, este wrapper te permite crear y recuperar fragmentos de código usando NibyBin de manera sencilla. ¡Vamos a explorar los detalles!
+
+*Tambien puedes ir a la [documentación oficial](https://el-mundo-de-niby.gitbook.io/nibybin-api-wrapper-1/)*
 
 **Instalación** 🚀
 

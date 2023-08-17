@@ -1,16 +1,36 @@
 {
    "compilerOptions": {
-     "target": "es2019",
-     "module": "commonjs",
-     "strict": true,
-     "esModuleInterop": true,
-     "forceConsistentCasingInFileNames": true,
-     "allowSyntheticDefaultImports": true,
-     "outDir": "./dist", // Carpeta donde se guardarán los archivos compilados
-     "rootDir": "./src", // Carpeta donde se encuentra el código fuente
-     "declaration": true,
-     "sourceMap": true
+      "target": "ES2019",
+      "module": "CommonJS",
+      "moduleResolution": "Node",
+      "strict": true,
+      "allowSyntheticDefaultImports": true,
+      "allowUnreachableCode": false,
+      "allowUnusedLabels": false,
+      "noUnusedLocals": true,
+      "noImplicitAny": true,
+      "noImplicitOverride": true,
+      "noImplicitThis": true,
+      "noPropertyAccessFromIndexSignature": false,
+      "noFallthroughCasesInSwitch": true,
+      "noUncheckedIndexedAccess": true,
+      "resolveJsonModule": true,
+      "useUnknownInCatchVariables": false,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "dist", // Carpeta donde se guardarán los archivos compilados
+      "rootDir": "src", // Carpeta donde se encuentra el código fuente
+      "declaration": true,
+      "sourceMap": true,
+      "strictFunctionTypes": true,
+      "strictNullChecks": true,
+      "strictBindCallApply": true,
+      "strictPropertyInitialization": true
    },
-   "include": ["./src/**/*.ts"], // Rutas relativas a los archivos TypeScript que quieres incluir
-   "exclude": ["node_modules"]
- }
+   "include": [
+      "./src/**/*.ts"
+   ], // Rutas relativas a los archivos TypeScript que quieres incluir
+   "exclude": [
+      "node_modules"
+   ]
+}

@@ -6,4 +6,4 @@
 
 ### Classes
 
-- [default](classes/default.md)
+- [NibyBinAPI](classes/NibyBinAPI.md)

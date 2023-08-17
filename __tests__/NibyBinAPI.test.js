@@ -1,6 +1,6 @@
-import {NibyBinAPI} from '../src/index';
-import { expect } from 'chai';
-import { describe } from 'mocha';
+const {NibyBinAPI} = require("../src/index");
+
+new NibyBinAPI({token: 123});
 
 describe('NibyBinAPIWrapper', () => {
 
