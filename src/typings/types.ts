@@ -5,6 +5,7 @@ export type CodeData = {
    id: string;
    code: string;
    language: string;
+   url: string;
 };
 
 export type UploadCodeOptions = {
